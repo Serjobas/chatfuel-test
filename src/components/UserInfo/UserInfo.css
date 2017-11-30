@@ -1,0 +1,36 @@
+.user-info{
+    width:400px;
+    min-height: 300px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 1px 0 0 rgba(0,0,0,.08);
+    margin:0 auto;
+    text-align:center;
+    margin-top:15px;
+    padding:15px 35px;
+}
+.ant-input.user-info__input{
+    width:260px;
+}
+.user-info__head{
+    display: flex;
+    justify-content: space-between;
+}
+.user-info__head-text{
+    font-size:18px;
+    max-width: 300px;
+    overflow: hidden;
+}
+.user-info__head{
+    margin-top:25px;
+    vertical-align: middle;
+}
+.user-info__img{
+    max-width:200px;
+    min-height:200px;
+}
+.ant-btn.user-info__back-btn{
+    position: fixed;
+    left:20px;
+    top:20px;
+}
